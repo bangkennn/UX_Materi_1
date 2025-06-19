@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #fff;
+  color: #2d221b;
+  min-height: 100vh;
+  line-height: 1.8;
+}
+
+.hero {
+  background: #fff;
+  text-align: left;
+  padding: 56px 0 24px 0;
+  border-bottom: 1px solid #e6ded7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 2.7rem;
+  letter-spacing: 0.5px;
+  color: #6d4c2b;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #7c6a58;
+  opacity: 1;
+  font-weight: 500;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+}
+section {
+  margin-bottom: 44px;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #6d4c2b;
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+ul, ol {
+  margin-left: 20px;
+  font-size: 1.08rem;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 8px 0;
+  color: #2d221b;
+  font-size: 1.08rem;
+}
+b {
+  color: #6d4c2b;
+  font-weight: 700;
+}
+footer {
+  text-align: center;
+  padding: 24px 0 12px 0;
+  color: #b8a898;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-top: 1px solid #e6ded7;
+  background: #fff;
+  margin-top: 48px;
+}
+
+@media (max-width: 800px) {
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 0 4px;
+  }
+}
+
+.pre-fade {
+  opacity: 0;
+  transform: translateY(40px) scale(0.98);
+  transition: opacity 0.8s cubic-bezier(.77,0,.18,1), transform 0.8s cubic-bezier(.77,0,.18,1);
+}
+.fade-in {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+}
+
+.simple {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 44px;
+}
+.simple ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style: disc inside;
+}
+.simple li {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 8px 0;
+  margin-bottom: 6px;
+  color: #2d221b;
+  font-size: 1.08rem;
+} 
